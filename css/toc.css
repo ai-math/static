@@ -1,0 +1,8 @@
+#toc{top:0;left:0;height:100%;position:fixed;background:#333;width:200px;padding-top:20px;color:#fff}
+#toc a{color:#fff;text-decoration:none;display:block}
+#toc ul{margin:0;padding:0;list-style:none}
+#toc li{padding:5px 10px}
+#toc .toc-h2{padding-left:10px}
+#toc .toc-h3{padding-left:20px}
+#toc .toc-active{background:#369;box-shadow:inset -5px 0 10px -5px #000}
+body {margin-left:220px; margin-right:20px}

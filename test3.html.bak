@@ -1,0 +1,21 @@
+<html>
+<head><meta charset="UTF-8"></head>
+<body>
+密码：<input id="secret"></input><br><br>
+原文：<textarea id="orig" style="width:500px;height:200px">
+
+</textarea>
+<button onclick="crypt()">加密</button><br><br>
+密文：<textarea id="miwen" style="width:500px;height:200px">
+
+</textarea>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9/crypto-js.js"></script>
+<script>
+function crypt() {
+  var pwd = document.getElementById("secret").value;
+  var txt = document.getElementById("orig").value;
+  document.getElementById("miwen").innerHTML = CryptoJS.AES.encrypt(txt, pwd).toString();
+}
+</script>
+</html>
