@@ -13,3 +13,6 @@ demo
 
 test.html test1.html
 
+## TODO
+
+加入 marginal note 的功能，其实以前已经做过了，就是迁移过来。
