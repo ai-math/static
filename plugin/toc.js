@@ -7,3 +7,4 @@ document.body.appendChild(new_element);
 addjs(root+"/lib/toc.js");
 
 window.onload=function(){$('#toc').toc();};
+//document.addEventListener("DOMContentLoaded", function(){$('#toc').toc();});
