@@ -82,7 +82,7 @@ function parse() {
 	config = config.split(",");
 	for(var i=0;i<config.length;i++) {
 		if(config[i]!="") {
-			addjs(root+"/plugin/"+config[i]+".js");
+			addjs(root+"/plugin/"+config[i]+".local.js");
 		}
 	}
 
